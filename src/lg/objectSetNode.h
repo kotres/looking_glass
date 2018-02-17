@@ -3,7 +3,7 @@
 
 #include "../gl/gl.h"
 
-typedef struct
+typedef struct LGObjectSetNode
 {
     GLuint ID;
     void* object;

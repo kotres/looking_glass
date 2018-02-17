@@ -5,13 +5,13 @@
 
 #include "buffer.h"
 
-typedef struct
+typedef struct LGVertexArray
 {
     Buffer* bound_buffer;
 }VertexArray;
 
 void vertexArrayConstructor(VertexArray* array);
 void vertexArrayDestructor(VertexArray* array);
-void vertexArrayBindBuffer(VertexArray* array,Buffer* buffer);
+void vertexArrayBindBuffer(VertexArray* array,GLenum target,Buffer* buffer);
 
 #endif

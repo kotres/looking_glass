@@ -3,15 +3,18 @@
 
 #include "../gl/gl.h"
 
-typedef struct
+typedef struct LGBuffer
 {
     void* data;
-    GLuint size;
+    GLsizei size;
 }Buffer;
 
-void bufferConstructor(Buffer* buf,GLuint size);
+void bufferConstructor(Buffer* buf,GLsizei size);
 void bufferDestructor(Buffer* buf);
 
+void bufferResize(Buffer* buf,GLsizei size);
+
+GLsizei BufferGetSize(Buffer* buf);
 void* BufferGetDataPointer(Buffer* buf);
 
 #endif
