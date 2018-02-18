@@ -27,11 +27,7 @@ void contextVertexAttribPointer(Context* con,GLuint index​, GLint size​,
                                 GLsizei stride​, const GLvoid * pointer​);
 
 void contextDrawArrays(Context* con,GLenum mode,GLint first,GLsizei count);
-
-
-
 void contextEnableVertexAttribArray(Context* con,GLuint index);
-
 void contextDisableVertexAttribArray(Context* con,GLuint index);
 
 #endif

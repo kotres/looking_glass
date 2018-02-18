@@ -655,6 +655,31 @@ typedef double		GLclampd;	/* double precision float in [0,1] */
 #define GL_CLIENT_ALL_ATTRIB_BITS 		0xFFFFFFFF
 
 
+/*functions*/
+
+
+void glGenVertexArrays(	GLsizei n, GLuint *arrays);
+
+void glBindVertexArray(	GLuint array);
+
+void glGenBuffers(GLsizei n, GLuint * buffers);
+
+void glBindBuffer(GLenum target,GLuint buffer);
+
+void glBufferData(GLenum target,GLsizei size,const GLvoid * data,
+                  GLenum usage);
+
+void glEnableVertexAttribArray(	GLuint index);
+
+void glVertexAttribPointer(GLuint index​, GLint size​, GLenum type​,
+                           GLboolean normalized​, GLsizei stride​,
+                           const GLvoid * pointer​);
+
+void glDrawArrays(GLenum mode,GLint first,GLsizei count);
+
+
+void glDisableVertexAttribArray(GLuint index);
+
 #ifdef __cplusplus
 }
 #endif
