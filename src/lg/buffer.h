@@ -1,7 +1,7 @@
 #ifndef BUFFER_H
 #define BUFFER_H
 
-#include "../gl/gl.h"
+#include "../gl/dataDefenitions.h"
 
 typedef struct LGBuffer
 {

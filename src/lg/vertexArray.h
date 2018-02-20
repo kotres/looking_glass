@@ -1,7 +1,7 @@
 #ifndef VERTEX_ARRAY_H
 #define VERTEX_ARRAY_H
 
-#include "../gl/gl.h"
+#include "../gl/dataDefenitions.h"
 
 #include "buffer.h"
 

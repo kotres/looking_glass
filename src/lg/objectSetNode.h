@@ -1,7 +1,7 @@
 #ifndef OBJECT_SET_NODE_H
 #define OBJECT_SET_NODE_H
 
-#include "../gl/gl.h"
+#include "../gl/dataDefenitions.h"
 
 typedef struct LGObjectSetNode
 {
